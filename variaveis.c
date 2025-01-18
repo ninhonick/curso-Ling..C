@@ -7,7 +7,6 @@ int int main(int argc, char const *argv[])
    float nota = 0;
    char media [10] = "Alexandre";
 
-   printf ();
+   printf ("seu nome é : ");
 
     return 0;
-}
