@@ -37,13 +37,13 @@ int main(int argc, char const *argv[])
      else if (media< 7 && media >=5 ){
     printf(" %s ! \n", nome);
     printf( "Sua media e :   %2.f \n",  media );
-    printf(" e voce esta Recuperacao, Vamos estudar!!!! \n");
+    printf(" e voce esta em Recuperacao, Vamos estudar!!!! \n");
      }
     else
     {
     printf(" %s ! \n", nome);
     printf( "Sua media e :   %2.f \n",  media );
-    printf(" e voce esta Reprovado, Nao desista!!!! \n");
+    printf(" e voce esta  Reprovado, Nao desista!!!! \n");
         
     }
     
