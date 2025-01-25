@@ -3,17 +3,26 @@
 
 int main(int argc, char const *argv[])
 {
-    int i , count ;
+    int i , count , div ;
+    int cont = 0;
 
     printf("contar ate quanto boy? ------>>");
     scanf("%d" ,&count);
+    printf("e agora! qual o numero vc quer que apareça os seus multiplos\n");
+    scanf("%d",&div );
 
-    for( i = 1; i<= count; i ){
+    for( i = 1; i<= count; i++ ){
+
+        if (i% div ){
+           cont ++;
+           continue;
+        }
                               
-         printf("%d \n", i);
+         printf("%d -- ", i);
 
-         i += 2;
+         
 }              
+         printf (">> Total de ( %d ) multiplos de %d", cont,div);
     
     return 0;
 }
