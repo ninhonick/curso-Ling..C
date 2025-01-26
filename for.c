@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
-    int i , count , div ;
+    int i , count , div ,par,imp ;
     int cont = 0;
 
     printf("contar ate quanto boy? ------>>");
@@ -13,19 +13,33 @@ int main(int argc, char const *argv[])
 
     for( i = 1; i<= count; i++ ){
 
+
+
         if (i% div == 0 ){
            cont ++;
+           if (i% 2 == 0){
+            par ++;
+             }
+              else{
+                imp ++ ;
+              }
+           } 
+              
          printf("%d -- ", i);
            continue;
+    }
         }
                               
 
          
 }              
-         printf (">> Total de ( %d ) multiplos de %d", cont,div);
+         printf (">> Total de ( %d ) multiplos de %d \n", cont,div);
+         printf("------------------------------------------------\n");
+         printf(">> onde dos %d divisores, %d sao pares e %d sao impares", cont,par,imp);
+         
     
     return 0;
-}
+
 
 
 
