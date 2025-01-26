@@ -13,12 +13,12 @@ int main(int argc, char const *argv[])
 
     for( i = 1; i<= count; i++ ){
 
-        if (i% div ){
+        if (i% div == 0 ){
            cont ++;
+         printf("%d -- ", i);
            continue;
         }
                               
-         printf("%d -- ", i);
 
          
 }              
