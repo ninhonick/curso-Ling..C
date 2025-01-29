@@ -23,12 +23,13 @@ int main(int argc, char const *argv[])
               else{
                 imp ++ ;
               }
+              continue;
            } 
               
          printf("%d -- ", i);
-           continue;
+           
     }
-        }
+        
                               
 
          
