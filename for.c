@@ -29,6 +29,7 @@ int main(int argc, char const *argv[])
          printf("%d -- ", i);
            
     }
+         printf(" desses %d sao par", par);
         
                               
 
